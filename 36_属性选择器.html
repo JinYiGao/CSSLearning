@@ -1,0 +1,51 @@
+<!--
+ * @Descripttion: 
+ * @version: 
+ * @Author: JinYiGao
+ * @Date: 2022-04-19 14:22:29
+ * @LastEditors: JinYiGao
+ * @LastEditTime: 2022-04-19 14:28:44
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 根据属性选择 */
+        input[value] {
+            color: pink;
+        }
+
+        /* 根据属性=值选择 */
+        input[type=password] {
+            color: red;
+        }
+
+        /* 根据属性=以val开头的选择 */
+        div[class^=ico] {
+            color: blue;
+        }
+
+        /* 根据属性=以val结尾的选择 */
+        div[class$=ico] {
+            color: blue;
+        }
+
+        /* 根据属性=包含val的选择 */
+        div[class*=ico] {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="text" value="请输入用户名">
+    <input type="text">
+    <input type="password">
+</body>
+
+</html>
